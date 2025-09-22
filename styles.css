@@ -106,6 +106,8 @@ body {
 
 .profile-image {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .profile-image img {
@@ -123,9 +125,6 @@ body {
 }
 
 #profile-img[src$="profile.jpg"] {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
     font-size: 48px;
     font-weight: bold;
